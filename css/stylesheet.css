@@ -12,6 +12,22 @@ body {
   padding: 20px; 
 }
 
+#profile-picture {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px; 
+  border-radius: 50%;
+  border: 5px solid #4CAF50;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  object-fit: cover; 
+}
+
+
 header {
   background-color: #008000;
   color: white;

@@ -1,0 +1,105 @@
+/* Fixed Width Layout Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  font-size: 16px; /* Base font size */
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 1200px; 
+  margin: 0 auto; 
+  padding: 20px;
+}
+
+header {
+  background-color: #2980b9;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+#main-navbar {
+  background-color: green;
+  overflow: hidden;
+}
+
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+#main-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+#main-navbar ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+}
+
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#main-navbar ul li a:hover {
+  background-color: #000;
+}
+
+#onpage {
+  text-decoration: underline overline;
+
+}
+
+section {
+  padding: 20px;
+  margin: 20px 0;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .container {
+    width: 95%; 
+  }
+  
+  nav ul {
+    flex-direction: column; 
+  }
+
+  nav ul li {
+    margin: 5px 0;
+  }
+}

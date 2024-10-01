@@ -21,52 +21,29 @@ header {
   text-align: center;
 }
 
-#main-navbar {
-  background-color: green;
-  overflow: hidden;
+nav {
+  background-color: #333;
 }
 
-#navbar-container {
-  float: left;
-  width: 100%;
-  position: relative;
-}
-
-#main-navbar ul {
-  list-style-type: none;
-  margin: 0;
+nav ul {
+  list-style: none;
   padding: 0;
-  position: relative;
-  left: 50%;
-  float: left;
+  display: flex;
+  justify-content: center; /* C
 }
 
-#main-navbar ul li {
-  float: left;
-  position: relative;
-  right: 50%;
-  display: block;
+nav ul li {
+  margin: 0 15px;
 }
 
-#main-navbar ul li a {
-  display: block;
-  padding: 10px 20px;
-  color: #fff;
+nav ul li a {
+  color: white;
   text-decoration: none;
-}
-
-#main-navbar ul li a:hover {
-  background-color: #000;
-}
-
-#onpage {
-  text-decoration: underline overline;
-
 }
 
 section {
   padding: 20px;
-  margin: 20px 0;
+  margin: 20px 0; /* Margin above and below sections */
   background-color: white;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);

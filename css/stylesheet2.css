@@ -13,8 +13,8 @@ body {
   justify-content: space-between; 
   align-items: center; 
   padding: 20px; 
-  background: red
-  color: white
+  background: red;
+  color: white;
 }
 
 .header-container h1 {

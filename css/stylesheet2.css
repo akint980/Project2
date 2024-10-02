@@ -2,9 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background: url('images/wood') no-repeat center center fixed; 
+    background-size: cover; 
+    color: #333; /* 
 }
+
 
 .header-container {
     display: flex; /
@@ -21,7 +23,7 @@ body {
 }
 
 nav {
-    background: none; 
+    background: red; 
 }
 
 nav ul {

@@ -7,12 +7,12 @@ body {
 }
 
 header {
-  background: linear-gradient(to right, #ff7e5f, #feb47b);
-  color: white;
-  padding: 40px 20px;
-  text-align: center;
-  font-family: 'Verdana', sans-serif;
-}
+  background: url(wood.jpg) no-repeat center center/cover;
+  color: white; 
+  padding: 60px 20px; 
+  text-align: center; 
+  position: relative; 
+  min-height: 300px; 
 
 .header-content {
   background: red;

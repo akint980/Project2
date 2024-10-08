@@ -91,11 +91,11 @@ footer {
     width: 95%;
   }
 
-  nav ul {
-    flex-direction: column; 
+nav ul {
+  flex-direction: column; 
   }
 
-  nav ul li {
-    margin: 5px 0;
+nav ul li {
+  margin: 5px 0;
   }
 }

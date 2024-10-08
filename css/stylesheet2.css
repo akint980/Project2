@@ -24,29 +24,29 @@ body {
 }
 
 nav {
-  background: red; 
+  background-color: #333; 
+  text-align: center;
 }
 
 nav ul {
-  list-style-type: none;
+  list-style: none;
   padding: 0;
-  margin: 0;
-  display: flex; 
+  display: inline-block;
 }
 
-nav li {
-  margin: 0 15px; 
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
 }
 
-nav a {
-  color: white; 
+nav ul li a {
+  color: white;
   text-decoration: none; 
   padding: 10px; 
 }
 
-nav a:hover {
-  background: rgba(255, 255, 255, 0.2); 
-  border-radius: 5px; 
+nav ul li a:hover {
+  text-decoration: underline; 
 }
 
 main {
